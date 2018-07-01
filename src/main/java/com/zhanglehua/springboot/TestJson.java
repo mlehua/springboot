@@ -27,6 +27,7 @@ public class TestJson {
 		          SimpleBeanPropertyFilter.filterOutAllExcept("id","name")));
 		
 		String strJson = mapper.writeValueAsString(std);
+		
 		System.out.println(strJson);
 	}
 
